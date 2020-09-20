@@ -93,19 +93,19 @@ end
       won? || draw?
     end
     
-    # def winner?
-    #   if winning_combo = won?
-    #     @board[winning_combo.first]
-    #   end
-    # end
-    
     def winner?
-    if won?
-      @board[won?[0]] == "X" ? "X" : "O"
-    else
-      nil
+      if winning_combo = won?
+        @board[winning_combo.first]
+      end
     end
-  end
+    
+  #   def winner?
+  #   if won?
+  #     @board[won?[0]] == "X" ? "X" : "O"
+  #   else
+  #     nil
+  #   end
+  # end
   
     
     def play
