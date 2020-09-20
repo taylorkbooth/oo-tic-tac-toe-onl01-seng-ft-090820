@@ -74,7 +74,8 @@ end
   end
     
     def won?
-      WIN_COMBINATIONS.detect do |
+      WIN_COMBINATIONS.detect do |combo|
+        
     
     
     
