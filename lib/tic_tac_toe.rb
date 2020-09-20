@@ -94,8 +94,8 @@ end
     end
     
     def winner?
-      if WIN_COMBINATIONS = won?
-        @board[WIN_COMBINATIONS.first]
+      if winning_combos = won?
+        @board[winning_combos.first]
       end
     end
     
