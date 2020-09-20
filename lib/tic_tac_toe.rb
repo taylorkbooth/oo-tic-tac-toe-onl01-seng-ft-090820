@@ -56,12 +56,12 @@ def turn
   puts "Hey, what is your choice? Pick something between 1-9."
  choice = gets.chomp
  position = input_to_index(choice)
- if valid_move?(position)
+  if valid_move?(position)
    move(position, current_player)
    display_board
   else
-  turn
-end
+    turn
+  end
 end
    
    def turn_count
