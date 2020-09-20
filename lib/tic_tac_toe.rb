@@ -89,7 +89,8 @@ end
       !won? && full?
     end
     
-    
+    def over?
+      
     
     
     
