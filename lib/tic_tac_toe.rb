@@ -85,7 +85,8 @@ end
       @board.all?{|token| token == "X" || token == "O"}
     end
     
-    
+    def draw?
+      
     
     
     
