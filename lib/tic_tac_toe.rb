@@ -100,7 +100,7 @@ end
     end
     
     def play
-      
+      while !over?
       
     
     
