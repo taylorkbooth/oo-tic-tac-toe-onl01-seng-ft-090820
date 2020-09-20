@@ -93,7 +93,7 @@ end
       won? || draw?
     end
     
-    def winner?
+    def winner
       if winning_combos = won?
         @board[winning_combos.first]
       end
