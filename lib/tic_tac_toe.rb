@@ -101,6 +101,9 @@ end
     
     def play
       while !over?
+      turn
+    end
+    if won?
       
     
     
