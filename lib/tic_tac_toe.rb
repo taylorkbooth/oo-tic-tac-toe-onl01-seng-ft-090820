@@ -75,7 +75,7 @@ end
     
     def won?
       WIN_COMBINATIONS.detect do |combo|
-        @board[combo]
+        @board[combo[0]] ==
     
     
     
